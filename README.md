@@ -33,7 +33,7 @@ This method involves the following key steps:
 
 2. **CIE 1931 Transformation**
    - Selected band combinations (e.g., B4-B3-B2 or B8-B4-B2) are mapped from RGB to CIE XYZ space
-   - Chromaticity coordinates (x, y) are derived according to the **CIE 1931 chromaticity diagram **
+   - Chromaticity coordinates (x, y) are derived according to the ** CIE 1931 chromaticity diagram **
 
 3. **Classification via Decision Boundary**
    - Empirical decision boundaries in CIE space are applied to isolate guano-affected pixels
@@ -63,6 +63,6 @@ These can be installed via your preferred package manager (e.g., `pip`, `conda`)
 
 ```bash
 python run_rgb.py      # Uses B4-B3-B2 (true-color composite)
-python run_nirrb.py    # Uses B8-B4-B2 (pseudo-color composite)
+python run_nirrb.py    # Uses B8-B4-B2 (false-color composite)
 
 
