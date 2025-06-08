@@ -28,7 +28,7 @@ This method involves the following key steps:
 
 1. **Preprocessing**
    - Removal of overbright pixels
-   - Removal of exposed rock pixels using the **Exposed Rock Index (ERI)**
+   - Removal of exposed rock pixels using the Exposed Rock Index (ERI)
    - Removal of shadowed pixels
 
 2. **CIE 1931 Transformation**
