@@ -2,7 +2,7 @@
 
 **Distinguishing Emperor Penguin Colonies from Space: A Novel Method Using the CIE 1931 Chromaticity Diagram**
 
-This repository presents a novel image classification method for extracting emperor penguin colonies in Antarctica from satellite imagery. The approach leverages the **CIE 1931 chromaticity diagram** to identify guano stains (feces) as ecological proxies of colony activity. It is based on a physical transformation of reflectance data rather than conventional spectral indices.
+A novel method using the Commission Internationale de l’Éclairage (CIE) chromaticity diagram to identify emperor penguin colonies in Antarctica from space. This approach provides a convenient, accurate, and innovative method to distinguish emperor penguin guano at a large scale.
 
 ---
 
