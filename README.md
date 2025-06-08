@@ -28,8 +28,8 @@ This method involves the following key steps:
 
 1. **Preprocessing**
    - Removal of overbright pixels
-   - Removal of exposed rock surfaces using the **Exposed Rock Index (ERI)**
-   - Filtering of low-reflectance shadow regions
+   - Removal of exposed rock pixels using the **Exposed Rock Index (ERI)**
+   - Removal of shadowed pixels
 
 2. **CIE 1931 Transformation**
    - Selected band combinations (e.g., B4-B3-B2 or B8-B4-B2) are mapped from RGB to CIE XYZ space
