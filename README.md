@@ -1,8 +1,12 @@
-# 🐧 CIE-Based Extraction of Emperor Penguin Colonies from Sentinel-2 Imagery
+# 🐧 CIE-Based Identification of Emperor Penguin Colonies from Sentinel-2 Imagery
 
 **Distinguishing Emperor Penguin Colonies from Space: A Novel Method Using the CIE 1931 Chromaticity Diagram**
 
 A novel method using the Commission Internationale de l’Éclairage (CIE) chromaticity diagram to identify emperor penguin colonies in Antarctica from space. This approach provides a convenient, accurate, and innovative method to distinguish emperor penguin guano at a large scale.
+
+
+📄 The associated manuscript describing this method is currently under review.  
+Citation details will be added here upon publication.
 
 ---
 
@@ -62,7 +66,3 @@ python run_rgb.py      # Uses B4-B3-B2 (true-color composite)
 python run_nirrb.py    # Uses B8-B4-B2 (pseudo-color composite)
 
 
----
-
-## 📄 The associated manuscript describing this method is currently under revision.
-Citation details will be added here upon official publication.
