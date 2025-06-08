@@ -41,7 +41,7 @@ This method involves the following key steps:
 
 4. **Visualization and Output**
    - The original RGB composite and binary classification mask are visualized side-by-side
-   - A binary GeoTIFF result is exported to the `output/` directory
+   - If needed, a binary GeoTIFF result will be exported to the `output/` directory
 
 ---
 
