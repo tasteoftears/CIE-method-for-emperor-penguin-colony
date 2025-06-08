@@ -27,11 +27,11 @@ This method involves the following key steps:
    - Removal of exposed rock surfaces using the **Exposed Rock Index (ERI)**
    - Filtering of low-reflectance shadow regions
 
-2. **Color Space Transformation**
+2. **CIE 1931 Transformation**
    - Selected band combinations (e.g., B4-B3-B2 or B8-B4-B2) are mapped from RGB to CIE XYZ space
-   - Chromaticity coordinates (x, y) are derived according to the **CIE 1931 color model**
+   - Chromaticity coordinates (x, y) are derived according to the **CIE 1931 chromaticity diagram **
 
-3. **Classification via Chromaticity Boundary**
+3. **Classification via Decision Boundary**
    - Empirical decision boundaries in CIE space are applied to isolate guano-affected pixels
    - Boundary parameters are derived from visual analysis of chromaticity distributions
 
@@ -60,6 +60,9 @@ These can be installed via your preferred package manager (e.g., `pip`, `conda`)
 ```bash
 python run_rgb.py      # Uses B4-B3-B2 (true-color composite)
 python run_nirrb.py    # Uses B8-B4-B2 (pseudo-color composite)
+
+
+---
 
 ## 📄 The associated manuscript describing this method is currently under revision.
 Citation details will be added here upon official publication.
