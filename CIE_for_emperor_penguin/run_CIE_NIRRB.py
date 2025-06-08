@@ -10,7 +10,9 @@ import os
 input_filename = 'Astrid20201018.tif'  # Input filename in data_image/)
 input_path = os.path.join('data_image', input_filename)
 base_name = os.path.splitext(input_filename)[0]
-output_path = os.path.join('output', f'{base_name}_NIRRB_output.tif')
+
+# You can create an 'output' folder to store classification results if needed.
+# output_path = os.path.join('output', f'{base_name}_NIRRB_output.tif')
 
 # --------------------------- Band Loading ---------------------------
 
@@ -89,10 +91,10 @@ plt.tight_layout()
 plt.show()
 
 
-# --------------------------- Save Result as GeoTIFF ---------------------------
-os.makedirs('output', exist_ok=True)
-with rasterio.open(output_path, 'w', driver='GTiff', height=mask.shape[0], width=mask.shape[1],
-                   count=1, dtype='uint8', crs=crs, transform=transform) as dst:
-    dst.write((mask * 255).astype(np.uint8), 1)
+# --------------------------- Save Result as GeoTIFF (if needed) ---------------------------
+# os.makedirs('output', exist_ok=True)
+# with rasterio.open(output_path, 'w', driver='GTiff', height=mask.shape[0], width=mask.shape[1],
+#                    count=1, dtype='uint8', crs=crs, transform=transform) as dst:
+#     dst.write((mask * 255).astype(np.uint8), 1)
 
-print(f'[NIR-R-B] Output saved: {output_path}')
+# print(f'[NIR-R-B] Output saved: {output_path}')
