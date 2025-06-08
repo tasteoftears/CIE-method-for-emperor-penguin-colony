@@ -64,5 +64,3 @@ These can be installed via your preferred package manager (e.g., `pip`, `conda`)
 ```bash
 python run_rgb.py      # Uses B4-B3-B2 (true-color composite)
 python run_nirrb.py    # Uses B8-B4-B2 (false-color composite)
-
-
